@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Course|Educa</title>
+    <link rel="stylesheet" href="style/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/Bootstrap/js/bootstrap.bundle.min.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+      integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/course.css" />
+  </head>
+
+  <body>
+    <nav id="web-navbar" class="nav-course navbar navbar-expand-lg navbar-dark fixed-top py-2">
+      <a class="navbar-brand" href="index.html"><img src="style/img/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="course.html">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="section web-header">
+      <div class="header-container">
+        <div class="header-content">
+          <h1>COURSE</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="main-container">
+      <h1>Pilih Fakultas</h1>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalEkonomika">
+            <div class="course ekonomika">
+              <div class="course-container">
+                <p>Fakultas Ekonomika dan Bisnis</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalEkonomika" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Manajemen</a></p>
+                  <p><a href="">Ilmu Ekonomi & Studi Pembangunan</a></p>
+                  <p><a href="">Akuntansi</a></p>
+                  <p><a href="">Ekonomi Islam</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalHukum">
+            <div class="course hukum">
+              <div class="course-container">
+                <p>Fakultas Hukum</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalHukum" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Hukum</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalIlmuBudaya">
+            <div class="course budaya">
+              <div class="course-container">
+                <p>Fakultas Ilmu Budaya</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalIlmuBudaya" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Sastra Indonesia</a></p>
+                  <p><a href="">Sastra Inggris</a></p>
+                  <p><a href="">Sastra Jepang</a></p>
+                  <p><a href="">Sejarah</a></p>
+                  <p><a href="">Ilmu Perpustakaan</a></p>
+                  <p><a href="">Antropologi Sosial</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalIlmuSospol">
+            <div class="course sosial">
+              <div class="course-container">
+                <p>Fakultas Ilmu Sosial dan Ilmu Politik</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalIlmuSospol" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Administrasi Bisnis</a></p>
+                  <p><a href="">Administrasi Publik</a></p>
+                  <p><a href="">Hubungan Internasional</a></p>
+                  <p><a href="">Ilmu Komunikasi</a></p>
+                  <p><a href="">Ilmu Pemerintahan</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalKedokteran">
+            <div class="course dokter">
+              <div class="course-container">
+                <p>Fakultas Kedokteran</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalKedokteran" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Kedokteran</a></p>
+                  <p><a href="">Gizi</a></p>
+                  <p><a href="">Perawatan</a></p>
+                  <p><a href="">Kedokteran Gigi</a></p>
+                  <p><a href="">Ilmu Farmasi</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalKesmas">
+            <div class="course kesmas">
+              <div class="course-container">
+                <p>Fakultas Kesehatan Masyarakat</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalKesmas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Kesehatan Masyarakat</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalPerikanan">
+            <div class="course ikan">
+              <div class="course-container">
+                <p>Fakultas Perikanan dan Ilmu Kelautan</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalPerikanan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Sumberdaya Akuatik</a></p>
+                  <p><a href="">Oseanografi</a></p>
+                  <p><a href="">Akuakultur</a></p>
+                  <p><a href="">Perikanan Tangkap</a></p>
+                  <p><a href="">Teknologi Hasil Perikanan</a></p>
+                  <p><a href="">Ilmu Kelautan</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalPeternakan">
+            <div class="course ternak">
+              <div class="course-container">
+                <p>Fakultas Peternakan dan Pertanian</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalPeternakan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Peternakan</a></p>
+                  <p><a href="">Teknologi Pangan</a></p>
+                  <p><a href="">Agroekoteknologi</a></p>
+                  <p><a href="">Agribisnis</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalPsikologi">
+            <div class="course psikologi">
+              <div class="course-container">
+                <p>Fakultas Psikologi</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalPsikologi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Psikologi</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalSains">
+            <div class="course sains">
+              <div class="course-container">
+                <p>Fakultas Sains dan Matematika</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalSains" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Biologi</a></p>
+                  <p><a href="">Fisika</a></p>
+                  <p><a href="">Kimia</a></p>
+                  <p><a href="">Ilmu Komputer/Informatika</a></p>
+                  <p><a href="">Statistika</a></p>
+                  <p><a href="">Matematika</a></p>
+                  <p><a href="">Bioteknologi</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal End -->
+
+        <div class="col-lg-3 col-md-6">
+          <button type="button" data-toggle="modal" data-target="#ModalTeknik">
+            <div class="course teknik">
+              <div class="course-container">
+                <p>Fakultas Teknik</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalTeknik" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">PILIH JURUSAN</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="pilihan">
+                  <p><a href="">Teknik Elektro</a></p>
+                  <p><a href="">Teknik Mesin</a></p>
+                  <p><a href="">Teknik Industri</a></p>
+                  <p><a href="">Teknik Kimia</a></p>
+                  <p><a href="">Teknik Lingkungan</a></p>
+                  <p><a href="">Teknik Geologi</a></p>
+                  <p><a href="">Teknik Geodesi</a></p>
+                  <p><a href="">Teknik Perkapalan</a></p>
+                  <p><a href="">Teknik Komputer</a></p>
+                  <p><a href="">Arsitektur</a></p>
+                  <p><a href="">Perencanaan Wilayah dan Kota</a></p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="container">
+        <h1 style="text-align: center">COURSES</h1>
+        <section class="card-area">
+          <!-- Card: IT -->
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--IT">
+                      <img src="image/IT.jpg" width="150%" alt="" />
+                    </div>
+
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--IT">IT</p>
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <video class="video__container" autoplay muted loop>
+                      <source class="video__media" src="video/it.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="inside-page">
+                <div class="inside-page__container">
+                  <h3 class="inside-page__heading inside-page__heading--IT">IT</h3>
+                  <p class="inside-page__text">Information technology (IT) is the use of any computers,...</p>
+                  <a href="#" class="inside-page__btn inside-page__btn--IT">View deals</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: music -->
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--music">
+                      <img src="image/MUSIC.jpg" width="160%" alt="" />
+                    </div>
+
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--music">MUSIC</p>
+                    </div>
+                  </div>
+
+                  <div class="card-back">
+                    <video class="video__container" autoplay muted loop>
+                      <source class="video__media" src="video/music.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="inside-page">
+                <div class="inside-page__container">
+                  <h3 class="inside-page__heading inside-page__heading--music">MUSIC</h3>
+                  <p class="inside-page__text">Music is the art of arranging sounds in time through the...</p>
+                  <a href="#" class="inside-page__btn inside-page__btn--music">View deals</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: languages -->
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--languages">
+                      <img src="image/language.jpg" width="160%" alt="" />
+                    </div>
+
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--languages">LANGUAGE</p>
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <video class="video__container" autoplay muted loop>
+                      <source class="video__media" src="video/language.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="inside-page">
+                <div class="inside-page__container">
+                  <h3 class="inside-page__heading inside-page__heading--languages">LANGUAGE</h3>
+                  <p class="inside-page__text">Language is the use of a system of communication...</p>
+                  <a href="#" class="inside-page__btn inside-page__btn--languages">View deals</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: history -->
+          <section class="card-section">
+            <div class="card">
+              <div class="flip-card">
+                <div class="flip-card__container">
+                  <div class="card-front">
+                    <div class="card-front__tp card-front__tp--history">
+                      <img src="image/history.jpg" width="125%" alt="" />
+                    </div>
+
+                    <div class="card-front__bt">
+                      <p class="card-front__text-view card-front__text-view--history">HISTORY</p>
+                    </div>
+                  </div>
+                  <div class="card-back">
+                    <video class="video__container" autoplay muted loop>
+                      <source class="video__media" src="video/history.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+              </div>
+
+              <div class="inside-page">
+                <div class="inside-page__container">
+                  <h3 class="inside-page__heading inside-page__heading--history">HISTORY</h3>
+                  <p class="inside-page__text">"History" is an umbrella term comprising past events...</p>
+                  <a href="#" class="inside-page__btn inside-page__btn--history">View deals</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <hr />
+
+        <section class="">
+          <input type="radio" id="All" name="categories" value="All" checked="" />
+          <input type="radio" id="IT" name="categories" value="IT" />
+          <input type="radio" id="MUSIC" name="categories" value="MUSIC" />
+          <input type="radio" id="LANGUAGES" name="categories" value="LANGUAGES" />
+          <input type="radio" id="HISTORY" name="categories" value="HISTORY" />
+
+          <ol class="filters">
+            <li>
+              <label for="All">All</label>
+            </li>
+            <li>
+              <label for="IT">IT</label>
+            </li>
+            <li>
+              <label for="MUSIC">MUSIC</label>
+            </li>
+            <li>
+              <label for="LANGUAGES">LANGUAGES</label>
+            </li>
+            <li>
+              <label for="HISTORY">HISTORY</label>
+            </li>
+          </ol>
+
+          <ol class="posts">
+            <li class="post" data-category="IT">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/git.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">IT</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">Git </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="IT">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/Wordpress.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">IT</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">WORD PRESS </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="IT">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/web-design.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">IT</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">WEB DESIGN </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="IT">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/A+.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">IT</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">A<sup>+</sup> </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="IT">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/networking.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">IT</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">NETWORKING </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="MUSIC">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/theory.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">MUSIC</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">THEORY </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="MUSIC">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/piano.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">MUSIC</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">PIANO </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="MUSIC">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/guiter.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">MUSIC</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">GUITER </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="LANGUAGES">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/japan.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">LANGUAGES</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">JAPAN </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="LANGUAGES">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/spain.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">LANGUAGES</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="#">SPAIN </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="LANGUAGES">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/english.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">LANGUAGES</a>
+                      </li>
+                      <li></li>
+                    </ol>
+
+                    <h2 class="post-title">
+                      <a href="#">ENGLISH </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+            <li class="post" data-category="HISTORY">
+              <article>
+                <figure>
+                  <a href="#">
+                    <img src="image/global-history.jpg" width="100%" alt="" />
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">HISTORY</a>
+                      </li>
+                      <li></li>
+                    </ol>
+
+                    <h2 class="post-title">
+                      <a href="#">GLOBAL HISTORY </a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="icon">
+        <a target="_blank" href="mailto: febard59@gmail.com">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-envelope fa-stack-1x white"></i>
+          </span>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/mf.ardiansyah47_/">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x white"></i>
+          </span>
+        </a>
+        <a target="_blank" href="https://twitter.com">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x white"></i>
+          </span>
+        </a>
+      </div>
+      <p>Educa &copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9fb210ee5d.js" crossorigin="anonymous"></script>
+    <script src="js/transparent.js"></script>
+  </body>
+</html>
